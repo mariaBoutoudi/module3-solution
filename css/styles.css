@@ -1,0 +1,94 @@
+body {
+     font-size: 16px;
+     color: #fff;
+     background-color: #fff;
+     font-family: 'Courier New', Courier, monospace;
+}
+
+#header-nav {
+    background-color: red;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding: 15px 15px;
+    height: 60px;  
+}
+
+.brand {
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: .90;
+    padding-left: 20px;
+    color: black;  
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+
+  #nav-list {
+    margin-top: 0px;
+    background-color:grey;
+    margin-bottom: 0px;
+  }
+
+  #nav-list a {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+#nav-list li a{
+    border: 1px solid black;
+}
+
+.navbar-toggle {
+    margin-top: 12px;
+}
+ 
+h1 {
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: .90;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    margin-top: 0;
+    
+}
+
+.row {
+    padding: 0 15px;
+}
+
+.row p {
+    color: black;
+    
+}
+
+.row h2 {
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: .90;
+    text-transform: capitalize;
+   
+}
+
+.food-section {
+    background-color: grey;
+    margin-bottom: 20px;
+
+}
+
+@media (max-width: 767px) {
+   .row { padding: 0 60px;
+
+   }
+}
